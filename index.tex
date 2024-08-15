@@ -1,0 +1,891 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrreprt}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={MTH 401 :: Real Analysis},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{MTH 401 :: Real Analysis}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Fall 2024}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\bookmarksetup{startatroot}
+
+\chapter*{Welcome!}\label{welcome}
+\addcontentsline{toc}{chapter}{Welcome!}
+
+\markboth{Welcome!}{Welcome!}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Before we get into the details of the course, I want to share with you a
+few thoughts about my general approach to teaching and learning. My main
+goal as the professor in this course is to help you succeed in not just
+learning the material but in growing as a learner. Learning takes
+effort, a willingness to try something that may not work, and the
+ability to use feedback to refine your understanding. My job is to
+foster an environment in which each and every one of you are supported
+in these aspects.
+
+Much of the work for this course will be done within class or small
+group discussions for which we will rely on everyone in this class as a
+source for feedback and support. Because of this, it's important that we
+create an inclusive community that is respectful of our differences and
+offers space for the boundary-setting necessary for positive
+relationships to form. Our diversity is reflected by differences in
+race, gender, sexuality, ability, class, religion, nationality, and
+other cultural identities and material circumstances.
+
+I am looking forward to getting to know each of you and it is my sincere
+goal to make our time together (in class and out) productive and
+engaging. I want you to feel comfortable coming to me with any questions
+or concerns that arise, mathematical and otherwise. If you encounter any
+issues that interfere with your learning, whether they are physical,
+mental, emotional, economic, or otherwise, or if you experience
+discrimination or mistreatment of any sort, please contact me
+immediately. Other resources for support include the Chair of the Math
+Department or the CAS Dean of Students.
+
+\bookmarksetup{startatroot}
+
+\chapter{At a Glance}\label{at-a-glance}
+
+\subsection*{Schedule}\label{schedule}
+\addcontentsline{toc}{subsection}{Schedule}
+
+Tue-Thur, 9:45-11:10 DB 230
+
+\subsection*{Instructor}\label{instructor}
+\addcontentsline{toc}{subsection}{Instructor}
+
+Chris Hallstrom, PhD (he / him / his). My office is Buckley Center 270.
+
+\subsection*{Email}\label{email}
+\addcontentsline{toc}{subsection}{Email}
+
+\href{mailto:hallstro@up.edu}{\nolinkurl{hallstro@up.edu}}. Email is the
+best way to contact me. I will do my best to get back to you as soon as
+I can, but please be aware that I typically do not check my email in the
+evenings or on weekends.
+
+\subsection*{Webpage}\label{webpage}
+\addcontentsline{toc}{subsection}{Webpage}
+
+All course content will be posted on \href{https://learning.up.edu}{our
+class Moodle page}
+
+\subsection*{Zoom}\label{zoom}
+\addcontentsline{toc}{subsection}{Zoom}
+
+In addition to stopping by my office for questions, I am also available
+(by prior arrangement) via zoom. Here is
+\href{https://uportland.zoom.us/j/4098263199}{my personal zoom link}.
+
+\subsection*{Calendly}\label{calendly}
+\addcontentsline{toc}{subsection}{Calendly}
+
+To schedule a meeting (in-person or virtual), you can check my
+\href{https://calendly.com/hallstro}{Calendly scheduluer}. If you would
+like to meet at time that you don't see available on Calendly, please
+feel free to check with me via email!
+
+\bookmarksetup{startatroot}
+
+\chapter{Course Description}\label{course-description}
+
+In this course, we will revisit many of the fundamental concepts from
+Calculus I with the goal of understanding better how the basic theorems
+and results follow from definitions. We will consider the question of
+how we can make these concepts precise -- or what that term even means
+in the context of calculus -- as well as how we can communicate our
+mathematical ideas clearly. Specific topics that we will cover include a
+formal definitions of the limit, continuity, and the derivative as well
+as various properties and theorems involving those concepts.
+
+We will use a method of instruction often called Inquiry Based Learning
+(IBL) which is designed to engage and foster skills and habits that
+working mathematicians use regularly; you will be asked to solve
+problems, make conjectures, experiment, explore, create, collaborate,
+and communicate your work with your peers. Rather than giving you facts
+to memorize or showing you clear paths to solutions, my role is to guide
+you via a sequence of carefully chosen problems through a journey of
+mathematical discovery.
+
+Throughout the semester, you will receive lists of definitions to
+interpret and make sense of, as well as exercises and theorems which you
+and your classmates will answer or prove. There will be very little
+traditional lecture. Instead, class time will consist of student
+presentations of new material. For best results, you should come to
+class prepared to share your work or ideas about that day's problems.
+This method of inquiry does not work nearly as well if you're looking at
+a problem for the first time in-class.
+
+You will be asked to share your solutions in class regularly. You will
+also be encouraged to critique the problems (reformulating them if
+needed), to generate examples and counterexamples to theorems or
+conjectures, to conjecture new theorems based on what you've learned,
+and to prove or disprove these conjectures. When observing another
+student's presentation, it is your responsibility to follow their
+argument closely and decide if they have seems reasonable. If you cannot
+follow their logic, or have questions about their solution, it is your
+responsibility to ask!
+
+\begin{tcolorbox}[enhanced jigsaw, breakable, rightrule=.15mm, left=2mm, arc=.35mm, bottomrule=.15mm, colframe=quarto-callout-warning-color-frame, toprule=.15mm, leftrule=.75mm, opacityback=0, colback=white]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+A key feature of the IBL method is student \textbf{discovery} and
+therefore \textbf{outside resources are not allowed.} This means that
+you should not consult texts (other than the one handed out in class),
+the internet, students not currently enrolled in the course, or faculty
+other than myself. Consulting outside resources will only deprive
+yourself of opportunities to engage with the material. You are
+encouraged to work with your classmates on the problems, although for
+best results you should get as far as you can on your own before
+collaborating. It's important that you do not feel overwhelmed -- so
+please let me know if you're stuck on a problem and I'll be happy to
+give you hints.
+
+\end{minipage}%
+\end{tcolorbox}
+
+\bookmarksetup{startatroot}
+
+\chapter{Learning Outcomes}\label{learning-outcomes}
+
+It will be helpful to organize the course content into
+
+\section{Course Learning Outcomes}\label{course-learning-outcomes}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  (LO1) I can communicate mathematics orally in a clear and complete
+  manner
+\item
+  (LO2) I can write correct and complete mathematical proofs of Real
+  Analysis results using the conventions of mathematical writing
+\item
+  (LO3) I can independently develop correct and complete proofs of Real
+  Analysis results
+\item
+  (LO4) I can demonstrate an understanding of the nature, approaches,
+  and domain of mathematical inquiry.
+\end{enumerate}
+
+\section{Fundamental Learning
+Outcomes}\label{fundamental-learning-outcomes}
+
+\begin{itemize}
+\tightlist
+\item
+  (FPT1) I can prove a result involving a supremum or infimum.
+\item
+  (FPT2) I can prove a finite limit statement using the precise
+  definition.
+\item
+  (FPT3) I can prove an infinite limit statement using the precise
+  definition.
+\item
+  (FPT4) I can prove a finite limit result using the precise definition.
+\item
+  (FPT5) I can prove an infinite limit result using the precise
+  definition.
+\item
+  (FPT6) I can prove a result involving a limit superior or limit
+  inferior.
+\end{itemize}
+
+\bookmarksetup{startatroot}
+
+\chapter{Student Support}\label{student-support}
+
+Throughout the semester, I expect that you will have questions that
+might not get answered in class. This could happen while doing homework
+or reviewing your notes, for example. Or perhaps you have a question
+about the material that did not get fully resolved in class. For these
+reasons, it's important that you know how to get help outside of class.
+
+\begin{tcolorbox}[enhanced jigsaw, breakable, rightrule=.15mm, left=2mm, arc=.35mm, bottomrule=.15mm, colframe=quarto-callout-warning-color-frame, toprule=.15mm, leftrule=.75mm, opacityback=0, colback=white]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+Because of the inquiry method of the class, it's important that you
+\textbf{do not} seek assistance from outside resources -- including and
+especially the internet!
+
+\end{minipage}%
+\end{tcolorbox}
+
+\section{Drop-In Student Hours}\label{drop-in-student-hours}
+
+I have set aside the following specific times during the week that I am
+available for drop-in help. You do not need to let me know you're coming
+-- just stop by my office (BC 270). Many students find these drop-in
+hours can be particularly helpful if you are working together with
+classmates. You can work together at one of the tables down the hall
+from my office and just pop in when you have questions.
+
+\begin{itemize}
+\tightlist
+\item
+  Mon, Wed 10:00-11:00
+\item
+  T-Th 2:30-4:00
+\end{itemize}
+
+\begin{tcolorbox}[enhanced jigsaw, breakable, rightrule=.15mm, left=2mm, arc=.35mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, toprule=.15mm, leftrule=.75mm, opacityback=0, colback=white]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-note-color}{\faInfo}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+Note: since I'm setting these times before the semester actually begins,
+these times may change if my schedule changes. If it turns out that I
+need to adjust them, I will let you know!
+
+\end{minipage}%
+\end{tcolorbox}
+
+\section{Sign-Up Hours}\label{sign-up-hours}
+
+I recognize that your schedule might not allow you to stop by during all
+the posted drop-in hours. Or you might simply find it more convenient to
+meet with me at a different time. If you go to my
+\href{https://calendly.com/hallstro}{Calendly scheduler}, you can
+sign-up for a time slot to meet, either in-person or via zoom. If there
+is a specific time that works for you and you don't see it available on
+the Calendly scheduler, please reach out to me via email and we will
+find a time that works for your schedule.
+
+\section{Open Door}\label{open-door}
+
+I have the scheduled drop-in hours simply to give you some times when
+you know that I'll be available -- but you are \textbf{always} welcome
+to stop by my office \textbf{at any time}. Unless I'm in class or in a
+meeting, I will generally be available to meet with you!
+
+\bookmarksetup{startatroot}
+
+\chapter{Course Structure}\label{course-structure}
+
+\section{Daily Work}\label{daily-work}
+
+Your standing assignment in this course is to work out and prepare
+solutions / proofs for the exercises in the class notes. Keep track of
+what problems we cover in class so that you can work ahead and come to
+class prepared to discuss your work and share your ideas, both in small
+groups and as a whole class. If you get stuck on a problem, come
+prepared to ask questions.
+
+\begin{tcolorbox}[enhanced jigsaw, breakable, rightrule=.15mm, left=2mm, arc=.35mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, toprule=.15mm, leftrule=.75mm, opacityback=0, colback=white]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-note-color}{\faInfo}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+I will post on Moodle a running account of what material we cover each
+day so that if you happen to miss class, you can still keep track of
+where we are in the notes.
+
+\end{minipage}%
+\end{tcolorbox}
+
+\section{Written Homework}\label{written-homework}
+
+Roughly once per week, I will ask you to hand in write-ups of selected
+problems. The goal of these written assignments is to practice your
+understanding of the material as well as your communication of
+mathematics. I will provide feedback on your work after which you are
+welcome to revise and resubmit for further feedback if you wish. You may
+choose to use some of these problems as evidence of your progress in the
+course.
+
+You are welcome to write your homework assignments by hand, but you
+might also choose use this opportunity to learn to use \(\LaTeX\)
+(pronounced LAY-TEK). This is the typesetting system your professors use
+to write documents that have math notation. There are several free ways
+to use \LaTeX, the easiest of which is probably the web-based
+\href{http://overleaf.com}{Overleaf}. Since it's web-based, there's
+nothing to install. Look for the free student version.
+
+\section{Synthesis Problems}\label{synthesis-problems}
+
+Throughout the semester, we will encounter problems whose solutions
+require the synthesis of multiple concepts and results from the course.
+These will be more varied and more challenging and will typically
+require deep thought over an extended period of time. You will likely
+find that you will hit some dead ends along the way. As with all
+mathematical research, the key is to learn from what doesn't work and to
+persist through the difficulties. The aha moment that will eventually
+come will be worth the wait! In order to encourage high standards of
+work and to give you the opportunity to react to feedback, you will be
+able to revise and resubmit each Synthesis Problem solution multiple
+times.
+
+\section{Due Dates}\label{due-dates}
+
+Here is how due dates work in the non-academic world: they exist and
+they're usually there for a reason, but they're usually somewhat
+flexible. In this class, they are meant to help you organize your time
+and to help me from getting overwhelmed with work. But if you need a
+little more time (no more than a few days) to work on something, that is
+usually fine. Just send me an email to let me know that your work will
+be late. You do not need to provide a reason. If you need more than a
+few days, you should come talk with me about it.
+
+\section{Proof Portfolio}\label{proof-portfolio}
+
+As we proceed through the course material, I will ask you to select
+examples of your work that exemplifying your understanding and
+engagement with the class content. At the end of the semester, this
+portfolio will provide evidence of your learning throughout the
+semester. To give me time to review your portfolio, please plan on
+submitting your portfolio to me by the last day of classes, Dec.~5th.
+There is no prescribed format for your portfolio -- many students create
+a Google Doc that they can then share with me, but if you have other
+ideas, just let me know!
+
+\section{Class Proof Journal}\label{class-proof-journal}
+
+Over the course of the semester, we will collaboratively create a proof
+journal consisting of solutions for each problem that have been
+presented in class. You can think of this as the textbook for the class,
+and you may refer to these solutions (with proper attribution) in your
+own work.
+
+\section{Exams}\label{exams}
+
+We will have a mid-semester take home exam the week of Oct.~8th which
+will give you a chance to reflect on the material that we've covered up
+to that point. Instead of a traditional final exam, there will have a
+final reflection assignment to be completed anytime before the end of
+finals week which will give you an opportunity to reflect on and
+synthesize some of the main themes of the course. You will also be asked
+to self-assess your learning over the course of the semester.
+
+\bookmarksetup{startatroot}
+
+\chapter{Writing Proofs}\label{writing-proofs}
+
+One of the goals of this course is to hone your skill in communicating
+your mathematical ideas, particularly in writing. In creating and
+writing proofs, your goal is not to simply come up with a correct
+argument but you must also convince someone else that you know what
+you're talking about!
+
+To best achieve this goal, you might think of your proof as a short
+essay that effectively integrates mathematical work with explanation and
+reasoning. Like any piece of writing, you should expect to write
+multiple drafts, proofread, and edit your work. Here is an incomplete
+set of guidelines you may find helpful:
+
+\begin{itemize}
+\tightlist
+\item
+  It is clearly written using complete sentences. In particular, all
+  mathematical notation and expressions should be part of a sentence.
+\item
+  Writing should be neat and legible. If your handwriting is not up to
+  the task, you should consider using a typesetting enviornment such as
+  \(\LaTeX\)
+\item
+  It should probably contain more words than symbols.
+\item
+  It is written at a level that is appropriate for a MATH 401 audience,
+  namely, members of our class who are familiar with the content of the
+  course but who may not have worked on the particular problem whose
+  solution you are presenting.
+\item
+  The proposition or claim to be proven is clearly stated as such.
+\item
+  Your proofs should begin with ``Proof:'' (without the quotation marks)
+  and end in a way that indicates to your reader that they have reached
+  the end, e.g.~with an appropriate symbol, such as \(\square\).
+\item
+  The proof is correct and the steps in the proof are also correct.
+\item
+  The proof is complete, meaning that a member of the standard Math 401
+  audience (see above) can trace your reasoning from beginning to end
+  and be persuaded that your proof is correct without having to
+  reconstruct or guess at significant portions of your thinking.
+\item
+  Your writing is almost free, if not entirely free, of spelling errors.
+\item
+  Your writing is almost free, if not entirely free, of basic
+  grammatical errors such as incomplete sentences, subject-verb
+  disagreement, and misuse of punctuation.
+\item
+  Mathematical notation and terminology is used properly.
+\end{itemize}
+
+\bookmarksetup{startatroot}
+
+\chapter{Grades}\label{grades}
+
+\begin{quote}
+Extrinsic motivation, which includes a desire to get better grades, is
+not only different from, but often undermines, intrinsic motivation, a
+desire to learn for its own sake.
+
+-- Alfie Kohn, ``The Case Against Grades''
+\end{quote}
+
+Grades, as they are traditionally thought of, are inherently imprecise
+and don't represent a full picture of your growth and learning over the
+course of a semester. Worse than that, research suggests that grades
+undermine the learning process in several ways:
+
+\begin{itemize}
+\item
+  Grades tend to diminish interest in what you're learning.
+\item
+  Grades create a preference for the easiest task. In other words,
+  students tend to do what they need to get a certain grade, but no
+  more.
+\item
+  Grades tend to reduce the quality of student thinking. The moment we
+  ask ``\textbf{how} am I doing?'\,' we lose track of \textbf{what}
+  we're doing.
+\end{itemize}
+
+Unfortunately, I am required to submit a grade for each student at the
+end of the semester but I will do what I can to de-emphasize the role of
+grades in this course so that as much as possible our focus is on
+learning.
+
+\section*{Collaborative Grading}\label{collaborative-grading}
+\addcontentsline{toc}{section}{Collaborative Grading}
+
+\markright{Collaborative Grading}
+
+Rather than giving you marks on individual assignments, I will instead
+give you extensive feedback on your work. After addressing that
+feedback, you're welcome to resubmit for further feedback if you wish.
+Throughout the semester, I will periodically ask you to reflect
+carefully on your work and to evaluate your progress. You will collect
+evidence of your understanding of the course content and based on that
+evidence, you will be asked to suggest a final course grade. In this
+way, we will determine your your grade collaboratively.
+
+The intention here is to help you focus on learning in a way that is
+more organic, as opposed to simply working as you think you're expected
+to. If this process causes more anxiety than it alleviates, please see
+me at any point to confer about your progress in the course -- I'm
+always happy to talk with you about your learning!
+
+Here some of the many ways that you might demonstrate your understanding
+of the course material:
+
+\begin{itemize}
+\tightlist
+\item
+  Submit weekly homework, including revisions that incorporate
+  instructor feedback that reflects understanding of specific topics.
+\item
+  Successfully complete challenging synthesis problems.
+\item
+  Submit a proof portfolio that demonstrates your understanding through:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Finding and demonstrating connections between ideas.
+  \item
+    Constructing examples and non-examples that demonstrate
+    understanding of definitions.
+  \item
+    Correctly using and explaining the role of axioms and definitions.
+  \end{itemize}
+\item
+  Submit solutions to the course journal.
+\item
+  Provide complete solutions on quizzes or exams.
+\item
+  When presenting, give helpful answers to questions.
+\item
+  When listening to presentations, give presenters helpful feedback
+  through your questions, suggestions, etc.
+\item
+  Read others' class journal submissions and use them to improve your
+  own proof writing.
+\end{itemize}
+
+\section*{Qualitative Descriptions of
+Grades}\label{qualitative-descriptions-of-grades}
+\addcontentsline{toc}{section}{Qualitative Descriptions of Grades}
+
+\markright{Qualitative Descriptions of Grades}
+
+Here are some qualitative descriptions that I find helpful in thinking
+about student grades. You might find them helpful as well.
+
+\begin{description}
+\item[A]
+This grade generally indicates superior work that demonstrates a deep
+understanding of the material as well as an ability to apply the
+material in many unfamiliar or especially complex situations. To earn an
+A, you should consistently demonstrate your deep understanding of the
+material using a wide variety of methods described above.
+\item[B]
+This grade indicates good work that is eminently satisfactory. You
+should be able to use and extend this knowledge in many situations
+although you may have difficulty with particularly challenging or
+unfamilar problems. To earn a B, you should consistently demonstrate
+your understanding of the material using many of the methods described
+above.
+\item[C]
+This grade indicates competent work that demonstrates an basic level of
+knowledge relevant to the course. You should be able to handle most of
+the more straightforward problems encountered. To earn a C, you might
+consistently meet only a few of the criteria listed above or else meet
+several criteria but less often.
+\item[D/F]
+These grades represent a fundamental breakdown of expectations. A D
+represents a meaningful but unsuccessful attempt at earning a C or
+above. An F represents such a severe lack of engagement, effort, or
+understanding that there is no evidence of meaningful progress.
+\end{description}
+
+\section*{Engagement}\label{engagement}
+\addcontentsline{toc}{section}{Engagement}
+
+\markright{Engagement}
+
+Although your course grade should be based on your
+\textbf{understanding} of course content and not on course engagement,
+in my experience these typically go hand in hand. So while engagement in
+the course is not itself evidence of understanding, it does usually help
+us achieve that goal.
+
+Here are some ways that you can engage with the class:
+
+\begin{itemize}
+\tightlist
+\item
+  Attend class regularly
+\item
+  Work ahead on new problems and come to class prepared to discuss
+\item
+  Work to make sense of new definitions or axioms.
+\item
+  Ask questions - either in class or in drop-in hours.
+\item
+  Volunteer to present your work. If you're not comfortable sharing your
+  work with the class, you can share with me during drop-in hours.
+\item
+  Actively participate in discussions and group work. This can mean
+  sharing your work but it can also mean asking questions or helping to
+  facilitate the discussion.
+\item
+  Support your classmates and help them succeed.
+\end{itemize}
+
+In discussing your course grade together, we may opt to add a modifier
+to your grade to acccount for engagement.
+
+\begin{itemize}
+\item
+  A \(\mathbf{-}\) modifier might be added to your grade if you've met
+  the standard for the base grade but lack of engagment prevented you
+  from doing more in the course.
+\item
+  A \(\mathbf{+}\) modifier might be added to your grade if you've
+  engaged signficiantly in the course.
+\end{itemize}
+
+\bookmarksetup{startatroot}
+
+\chapter{University Policies}\label{university-policies}
+
+\section{Academic Integrity}\label{academic-integrity}
+
+The University of Portland is a diverse academic community of learners
+and scholars who are dedicated to freely sharing ideas and engaging in
+respectful discussion of those ideas to discover truth. Such pursuits
+require each person, whether student or faculty, to present truthfully
+our own ideas and give credit to others for the ideas that they
+generate. Thus, cheating on exams, copying another student's assignment,
+including homework, or using the work of others without proper citation
+are some examples of violating academic integrity.
+
+Especially for written and oral assignments, students have an ethical
+responsibility to properly cite the authors of any books, articles, or
+other sources that they use. Students should expect to submit
+assignments to Turnitin, a database that ensures assignments are
+original work of the student submitting. Each discipline has guidelines
+for how to give appropriate credit, and instructors will communicate the
+specific guidelines for their discipline. The Clark Library also
+maintains a webpage that provides citation guidelines at
+\href{https://libguides.up.edu/cite}{libguides.up.edu/cite}.
+
+The misuse of AI to shortcut course learning outcomes will be treated as
+a violation of academic integrity comparable to plagiarism or cheating.
+Faculty are responsible for including a written ``Course AI Policy'' in
+their syllabi that clearly states what they consider appropriate and
+inappropriate uses of AI in the context of their courses. Students are
+responsible for using AI in ways that do not detract from the
+established learning outcomes of the course. All members of the
+scholarly community are responsible for demonstrating sound judgment in
+discerning when and how to utilize AI in their work, upholding standards
+of citation, originality, and integrity.
+
+\section{Assessment Disclosure}\label{assessment-disclosure}
+
+Student work products for this course may be used by the University for
+educational quality assurance purposes. For reasons of confidentiality,
+such examples will not include student names.
+
+\section{Accessibility}\label{accessibility}
+
+The University of Portland strives to make its courses and services
+fully accessible to all students. Students are encouraged to discuss
+with their instructors what might be most helpful in enabling them to
+meet the learning goals of the course. Students who experience a
+disability are encouraged to use the services of the Office for
+Accessible Education Services (AES), located in the Shepard Academic
+Resource Center (503-943- 8985). If you have an AES Accommodation Plan,
+you should meet with your instructor to discuss how to implement your
+plan in this class. Requests for alternate location for exams and/or
+extended exam time should, where possible, be made two weeks in advance
+of an exam, and must be made at least one week in advance of an exam.
+Also, if applicable, you should meet with your instructor to discuss
+emergency medical information or how best to ensure your safe evacuation
+from the building in case of fire or other emergency. All information
+that students provide regarding disability or accommodation is
+confidential. All students are responsible for completing the required
+coursework and are held to the same evaluation standards specified in
+the course syllabus.
+
+\section{Mental Health}\label{mental-health}
+
+Anyone can experience problems with their mental health that interfere
+with academic experiences and negatively impact daily life. If you or
+someone you know experiences mental health challenges at UP, please
+contact the \href{https://www.up.edu/counseling/}{University of Portland
+Counseling Center} in the upper level of Orrico Hall (down the hill from
+Franz Hall and near Mehling Hall) at 503-943-7134 or
+\href{mailto:hcc@up.edu}{\nolinkurl{hcc@up.edu}}. Their services are
+free and confidential. In addition, mental health consultation and
+support is available through the Pilot Helpline by calling 503-943-7134
+and pressing 3. The University of Portland Campus Safety Department
+(503-943-4444) also has personnel trained to respond sensitively to
+mental health emergencies at all hours. Remember that getting help is a
+smart and courageous thing to do -- for yourself, for those you care
+about, and for those who care about you. For more information on health
+and wellness resources at UP go to
+\href{https://www.linktr.ee/wellnessUP}{www.linktr.ee/wellnessUP}.
+
+\section{Non-Violence}\label{non-violence}
+
+The University of Portland is committed to fostering a safe and
+respectful community free from all forms of violence. Violence of any
+kind, and in particular acts of power- based personal violence, are
+inconsistent with our mission. Together, all UP community members must
+take a stand against violence. Learn more about what interpersonal
+violence looks like, campus and community resources, UP's prevention
+strategy, and what we as individuals can do to assist on the
+\href{https://www.up.edu/greendot}{Green Dot website}. Further
+information and reporting options may be found on the
+\href{htts://www.up.edu/titleix}{Title IX website}.
+
+\section{Ethics of Information}\label{ethics-of-information}
+
+The University of Portland is a community dedicated to the investigation
+and discovery of processes for thinking ethically and encouraging the
+development of ethical reasoning in the formation of the whole person.
+Using information ethically, as an element in open and honest scholarly
+endeavors, involves moral reasoning to determine the right way to
+access, create, distribute, and employ information, including:
+considerations of intellectual property rights, fair use, information
+bias, censorship, and privacy. More information can be found in the
+Clark Library's guide to the
+\href{https://libguides.up.edu/ethicaluse}{Ethical Use of Information}.
+
+\section{The Learning Commons}\label{the-learning-commons}
+
+Students may receive academic assistance through Learning Commons
+tutoring services and workshops. The Co-Pilot peer tutoring program
+provides students with opportunities to work with other students to get
+help in writing, math, group projects, and many other courses. Schedule
+an appointment to meet with a Co-Pilot (tutor) by visiting the
+\href{https://www.up.edu/learningcommons}{Learning Commons website}.
+Students can also meet with a Co-Pilot during drop-in hours. Check the
+Learning Commons website or stop by the Learning Commons in BC 163 to
+learn more about their services. Co-Pilots are a wonderful support along
+your academic journey.
+
+
+
+\end{document}
