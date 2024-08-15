@@ -3,15 +3,15 @@ project:
   output-dir: docs
 
 book:
-  title: "MTH 401 :: Real Analysis"
-  subtitle: "Fall 2024"
+  title: "MTH 401 :: Real Analysis <br>Fall 2024"
+  #subtitle: "Fall 2024"
   navbar:
-    background: "#7469B6"
+    background: "#D0B8A8"
     right:
       - href: about.qmd
         text: aboot
   sidebar:
-    background: "#C8A1E0"
+    background: "#F8EDE3"
 #    logo: "images/logo.png"
     pinned: true
     align: center
@@ -34,7 +34,8 @@ book:
 
 format:
   html:
-    theme: cosmo
+    #theme: litera
+    theme: simplex
     css: style/mth401.scss
     toc: true
     link-external-icon: true

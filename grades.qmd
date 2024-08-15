@@ -14,7 +14,7 @@ format:
 > Extrinsic motivation, which includes a desire to get better grades, is not only different from, but often undermines, intrinsic motivation, a desire to learn for its own sake.
 >
 > ::: {style="text-align: right"}
-> -- Alfie Kohn, "The Case Against Grades"
+> -- Alfie Kohn, ["The Case Against Grades"](https://www.alfiekohn.org/article/case-grades/)
 > :::
 
 Grades, as they are traditionally thought of, are inherently imprecise and don't represent a full picture of your growth and learning over the course of a semester. Worse than that, research suggests that grades undermine the learning process in several ways:
@@ -25,7 +25,7 @@ Grades, as they are traditionally thought of, are inherently imprecise and don't
 
 -   Grades tend to reduce the quality of student thinking. The moment we ask \`\`**how** am I doing?'' we lose track of **what** we're doing.
 
-Unfortunately, I am required to submit a grade for each student at the end of the semester but I will do what I can to de-emphasize the role of grades in this course so that as much as possible our focus is on learning.
+Unfortunately, I am required to submit a grade for each student at the end of the semester -- but I will do what I can to de-emphasize the role of grades in this course so that as much as possible our focus is on learning.
 
 ## Collaborative Grading {.unnumbered}
 Rather than giving you marks on individual assignments, I will instead give you extensive feedback on your work. After addressing that feedback, you're welcome to resubmit for further feedback if you wish.  Throughout the semester, I will periodically ask you to reflect carefully on your work and to evaluate your progress. You will collect evidence of your understanding of the course content and based on that evidence, you will be asked to suggest a final course grade. In this way, we will determine your your grade collaboratively.
