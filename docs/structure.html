@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>MTH 401 :: Real Analysis</title>
+<title>MTH 401 :: Real Analysis - 5&nbsp; Course Structure</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,7 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./glance.html" rel="next">
+<link href="./writing.html" rel="next">
+<link href="./support.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -67,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="style/mth401.scss">
 </head>
@@ -103,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Welcome!</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./structure.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Course Structure</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -125,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Welcome!</span></a>
   </div>
 </li>
@@ -155,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./structure.html" class="sidebar-item-text sidebar-link">
+  <a href="./structure.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Course Structure</span></span></a>
   </div>
 </li>
@@ -183,11 +213,17 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome!</a></li>
+  <li><a href="#daily-work" id="toc-daily-work" class="nav-link active" data-scroll-target="#daily-work"><span class="header-section-number">5.1</span> Daily Work</a></li>
+  <li><a href="#written-homework" id="toc-written-homework" class="nav-link" data-scroll-target="#written-homework"><span class="header-section-number">5.2</span> Written Homework</a></li>
+  <li><a href="#synthesis-problems" id="toc-synthesis-problems" class="nav-link" data-scroll-target="#synthesis-problems"><span class="header-section-number">5.3</span> Synthesis Problems</a></li>
+  <li><a href="#due-dates" id="toc-due-dates" class="nav-link" data-scroll-target="#due-dates"><span class="header-section-number">5.4</span> Due Dates</a></li>
+  <li><a href="#proof-portfolio" id="toc-proof-portfolio" class="nav-link" data-scroll-target="#proof-portfolio"><span class="header-section-number">5.5</span> Proof Portfolio</a></li>
+  <li><a href="#class-proof-journal" id="toc-class-proof-journal" class="nav-link" data-scroll-target="#class-proof-journal"><span class="header-section-number">5.6</span> Class Proof Journal</a></li>
+  <li><a href="#exams" id="toc-exams" class="nav-link" data-scroll-target="#exams"><span class="header-section-number">5.7</span> Exams</a></li>
   </ul>
 </nav>
     </div>
@@ -196,8 +232,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">MTH 401 :: Real Analysis</h1>
-<p class="subtitle lead">Fall 2024</p>
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Course Structure</span></h1>
 </div>
 
 
@@ -214,12 +249,44 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<hr>
-<section id="welcome" class="level1 unnumbered">
-<h1 class="unnumbered">Welcome!</h1>
-<p>Before we get into the details of the course, I want to share with you a few thoughts about my general approach to teaching and learning. My main goal as the professor in this course is to help you succeed in not just learning the material but in growing as a learner. Learning takes effort, a willingness to try something that may not work, and the ability to use feedback to refine your understanding. My job is to foster an environment in which each and every one of you are supported in these aspects.</p>
-<p>Much of the work for this course will be done within class or small group discussions for which we will rely on everyone in this class as a source for feedback and support. Because of this, it’s important that we create an inclusive community that is respectful of our differences and offers space for the boundary-setting necessary for positive relationships to form. Our diversity is reflected by differences in race, gender, sexuality, ability, class, religion, nationality, and other cultural identities and material circumstances.</p>
-<p>I am looking forward to getting to know each of you and it is my sincere goal to make our time together (in class and out) productive and engaging. I want you to feel comfortable coming to me with any questions or concerns that arise, mathematical and otherwise. If you encounter any issues that interfere with your learning, whether they are physical, mental, emotional, economic, or otherwise, or if you experience discrimination or mistreatment of any sort, please contact me immediately. Other resources for support include the Chair of the Math Department or the CAS Dean of Students.</p>
+<section id="daily-work" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="daily-work"><span class="header-section-number">5.1</span> Daily Work</h2>
+<p>Your standing assignment in this course is to work out and prepare solutions / proofs for the exercises in the class notes. Keep track of what problems we cover in class so that you can work ahead and come to class prepared to discuss your work and share your ideas, both in small groups and as a whole class. If you get stuck on a problem, come prepared to ask questions.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>I will post on Moodle a running account of what material we cover each day so that if you happen to miss class, you can still keep track of where we are in the notes.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="written-homework" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="written-homework"><span class="header-section-number">5.2</span> Written Homework</h2>
+<p>Roughly once per week, I will ask you to hand in write-ups of selected problems. The goal of these written assignments is to practice your understanding of the material as well as your communication of mathematics. I will provide feedback on your work after which you are welcome to revise and resubmit for further feedback if you wish. You may choose to use some of these problems as evidence of your progress in the course. Guidelines for written work can be found in <a href="writing.html" class="quarto-xref">Section&nbsp;<span>6</span></a>.</p>
+<p>You are welcome to write your homework assignments by hand, but you might also choose use this opportunity to learn to use <span class="math inline">\(\LaTeX\)</span> (pronounced LAY-TEK). This is the typesetting system your professors use to write documents that have math notation. There are several free ways to use , the easiest of which is probably the web-based <a href="http://overleaf.com">Overleaf</a>. Since it’s web-based, there’s nothing to install. Look for the free student version.</p>
+</section>
+<section id="synthesis-problems" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="synthesis-problems"><span class="header-section-number">5.3</span> Synthesis Problems</h2>
+<p>Throughout the semester, we will encounter problems whose solutions require the synthesis of multiple concepts and results from the course. These will be more varied and more challenging and will typically require deep thought over an extended period of time. You will likely find that you will hit some dead ends along the way. As with all mathematical research, the key is to learn from what doesn’t work and to persist through the difficulties. The aha moment that will eventually come will be worth the wait!</p>
+</section>
+<section id="due-dates" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="due-dates"><span class="header-section-number">5.4</span> Due Dates</h2>
+<p>Here is how due dates work in the non-academic world: they exist and they’re usually there for a reason, but they’re usually somewhat flexible. In this class, they are meant to help you organize your time and to help me from getting overwhelmed with work. But if you need a little more time (no more than a few days) to work on something, that is usually fine. Just send me an email to let me know that your work will be late. You do not need to provide a reason. If you need more than a few days, you should come talk with me about it.</p>
+</section>
+<section id="proof-portfolio" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="proof-portfolio"><span class="header-section-number">5.5</span> Proof Portfolio</h2>
+<p>As we proceed through the course material, I will ask you to select examples of your work that exemplifying your understanding and engagement with the class content. At the end of the semester, this portfolio will provide evidence of your learning throughout the semester. To give me time to review your portfolio, please plan on submitting your portfolio to me by the last day of classes, Dec.&nbsp;5th. There is no prescribed format for your portfolio – many students create a Google Doc that they can then share with me, but if you have other ideas, just let me know!</p>
+</section>
+<section id="class-proof-journal" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="class-proof-journal"><span class="header-section-number">5.6</span> Class Proof Journal</h2>
+<p>Over the course of the semester, we will collaboratively create a proof journal consisting of solutions for each problem that have been presented in class. You can think of this as a textbook for the class, and you may refer to these solutions (with proper attribution) in your own work.</p>
+</section>
+<section id="exams" class="level2" data-number="5.7">
+<h2 data-number="5.7" class="anchored" data-anchor-id="exams"><span class="header-section-number">5.7</span> Exams</h2>
+<p>We will have a mid-semester take home exam the week of Oct.&nbsp;8th which will give you a chance to reflect on the material that we’ve covered up to that point. Instead of a traditional final exam, there will have a final reflection assignment to be completed anytime before the end of finals week which will give you an opportunity to reflect on and synthesize some of the main themes of the course. You will also be asked to self-assess your learning over the course of the semester.</p>
 
 
 </section>
@@ -643,10 +710,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./support.html" class="pagination-link" aria-label="Student Support">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Student Support</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./glance.html" class="pagination-link" aria-label="At a Glance">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">At a Glance</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./writing.html" class="pagination-link" aria-label="Writing Proofs">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Writing Proofs</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

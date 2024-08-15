@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>MTH 401 :: Real Analysis</title>
+<title>MTH 401 :: Real Analysis - 6&nbsp; Writing Proofs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,7 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./glance.html" rel="next">
+<link href="./grades.html" rel="next">
+<link href="./structure.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -67,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="style/mth401.scss">
 </head>
@@ -103,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Welcome!</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./writing.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Writing Proofs</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -125,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Welcome!</span></a>
   </div>
 </li>
@@ -161,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./writing.html" class="sidebar-item-text sidebar-link">
+  <a href="./writing.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Writing Proofs</span></span></a>
   </div>
 </li>
@@ -183,21 +213,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome!</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">MTH 401 :: Real Analysis</h1>
-<p class="subtitle lead">Fall 2024</p>
+<h1 class="title"><span id="sec-writing" class="quarto-section-identifier"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Writing Proofs</span></span></h1>
 </div>
 
 
@@ -214,15 +237,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<hr>
-<section id="welcome" class="level1 unnumbered">
-<h1 class="unnumbered">Welcome!</h1>
-<p>Before we get into the details of the course, I want to share with you a few thoughts about my general approach to teaching and learning. My main goal as the professor in this course is to help you succeed in not just learning the material but in growing as a learner. Learning takes effort, a willingness to try something that may not work, and the ability to use feedback to refine your understanding. My job is to foster an environment in which each and every one of you are supported in these aspects.</p>
-<p>Much of the work for this course will be done within class or small group discussions for which we will rely on everyone in this class as a source for feedback and support. Because of this, it’s important that we create an inclusive community that is respectful of our differences and offers space for the boundary-setting necessary for positive relationships to form. Our diversity is reflected by differences in race, gender, sexuality, ability, class, religion, nationality, and other cultural identities and material circumstances.</p>
-<p>I am looking forward to getting to know each of you and it is my sincere goal to make our time together (in class and out) productive and engaging. I want you to feel comfortable coming to me with any questions or concerns that arise, mathematical and otherwise. If you encounter any issues that interfere with your learning, whether they are physical, mental, emotional, economic, or otherwise, or if you experience discrimination or mistreatment of any sort, please contact me immediately. Other resources for support include the Chair of the Math Department or the CAS Dean of Students.</p>
+<p>One of the goals of this course is to hone your skill in communicating your mathematical ideas, particularly in writing. In creating and writing proofs, your goal is not to simply come up with a correct argument but you must also convince someone else that you know what you’re talking about!</p>
+<p>To best achieve this goal, you might think of your proof as a short essay that effectively integrates mathematical work with explanation and reasoning. Like any piece of writing, you should expect to write multiple drafts, proofread, and edit your work. Here is an incomplete set of guidelines you may find helpful:</p>
+<ul>
+<li>It is clearly written using complete sentences. In particular, all mathematical notation and expressions should be part of a sentence.</li>
+<li>Writing should be neat and legible. If your handwriting is not up to the task, you should consider using a typesetting enviornment such as <span class="math inline">\(\LaTeX\)</span></li>
+<li>It should probably contain more words than symbols.</li>
+<li>It is written at a level that is appropriate for a MATH 401 audience, namely, members of our class who are familiar with the content of the course but who may not have worked on the particular problem whose solution you are presenting.</li>
+<li>The proposition or claim to be proven is clearly stated as such.</li>
+<li>Your proofs should begin with “Proof:” (without the quotation marks) and end in a way that indicates to your reader that they have reached the end, e.g.&nbsp;with an appropriate symbol, such as <span class="math inline">\(\square\)</span>.</li>
+<li>The proof is correct and the steps in the proof are also correct.</li>
+<li>The proof is complete, meaning that a member of the standard Math 401 audience (see above) can trace your reasoning from beginning to end and be persuaded that your proof is correct without having to reconstruct or guess at significant portions of your thinking.</li>
+<li>Your writing is almost free, if not entirely free, of spelling errors.</li>
+<li>Your writing is almost free, if not entirely free, of basic grammatical errors such as incomplete sentences, subject-verb disagreement, and misuse of punctuation.</li>
+<li>Mathematical notation and terminology is used properly.</li>
+</ul>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -643,10 +674,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./structure.html" class="pagination-link" aria-label="Course Structure">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Course Structure</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./glance.html" class="pagination-link" aria-label="At a Glance">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">At a Glance</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./grades.html" class="pagination-link" aria-label="Grades">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Grades</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
