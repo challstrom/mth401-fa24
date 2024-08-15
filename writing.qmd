@@ -1,0 +1,32 @@
+---
+format:
+  html: 
+    toc: true
+    toc-expand: 2
+    toc-title: "On this page"
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+---
+# Writing Proofs {#sec-writing}
+
+One of the goals of this course is to hone your skill in communicating your mathematical ideas, particularly in writing.  In creating and writing proofs, your goal is not to simply come up with a correct argument but you must also convince someone else that you know what you're talking about!  
+
+To best achieve this goal, you might think of your proof as a short essay that effectively integrates mathematical work with explanation and reasoning. Like any piece of writing, you should expect to write multiple drafts, proofread, and edit your work.  Here is an incomplete set of guidelines you may find helpful:
+
+* It is clearly written using complete sentences. In particular, all mathematical notation and expressions should be part of a sentence.
+* Writing should be neat and legible.  If your handwriting is not up to the task, you should consider using a typesetting enviornment such as $\LaTeX$
+* It should probably contain more words than symbols.
+* It is written at a level that is appropriate for a MATH 401 audience, namely, members of our class who are familiar with
+the content of the course but who may not have worked on the particular problem whose solution you are presenting.
+* The proposition or claim to be proven is clearly stated as such.
+* Your proofs should begin with “Proof:” (without the quotation marks) and end in a way that indicates to your reader that they have reached the end, e.g. with an appropriate symbol, such as $\square$.
+* The proof is correct and the steps in the proof are also correct.
+* The proof is complete, meaning that a member of the standard Math 401 audience (see above) can trace your reasoning
+from beginning to end and be persuaded that your proof is correct without having to reconstruct or guess at significant
+portions of your thinking.
+* Your writing is almost free, if not entirely free, of spelling errors.
+* Your writing is almost free, if not entirely free, of basic grammatical errors such as incomplete sentences, subject-verb
+disagreement, and misuse of punctuation.
+* Mathematical notation and terminology is used properly.

@@ -1,0 +1,85 @@
+---
+title: "Grades"
+format:
+  html: 
+    toc: true
+    toc-expand: 2
+    toc-title: "On this page"
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+---
+
+> Extrinsic motivation, which includes a desire to get better grades, is not only different from, but often undermines, intrinsic motivation, a desire to learn for its own sake.
+>
+> ::: {style="text-align: right"}
+> -- Alfie Kohn, "The Case Against Grades"
+> :::
+
+Grades, as they are traditionally thought of, are inherently imprecise and don't represent a full picture of your growth and learning over the course of a semester. Worse than that, research suggests that grades undermine the learning process in several ways:
+
+-   Grades tend to diminish interest in what you're learning.
+
+-   Grades create a preference for the easiest task. In other words, students tend to do what they need to get a certain grade, but no more.
+
+-   Grades tend to reduce the quality of student thinking. The moment we ask \`\`**how** am I doing?'' we lose track of **what** we're doing.
+
+Unfortunately, I am required to submit a grade for each student at the end of the semester but I will do what I can to de-emphasize the role of grades in this course so that as much as possible our focus is on learning.
+
+## Collaborative Grading {.unnumbered}
+Rather than giving you marks on individual assignments, I will instead give you extensive feedback on your work. After addressing that feedback, you're welcome to resubmit for further feedback if you wish.  Throughout the semester, I will periodically ask you to reflect carefully on your work and to evaluate your progress. You will collect evidence of your understanding of the course content and based on that evidence, you will be asked to suggest a final course grade. In this way, we will determine your your grade collaboratively.
+
+The intention here is to help you focus on learning in a way that is more organic, as opposed to simply working as you think you're expected to. If this process causes more anxiety than it alleviates, please see me at any point to confer about your progress in the course -- I'm always happy to talk with you about your learning!
+
+Here some of the many ways that you might demonstrate your understanding of the course material:
+
+-  Submit weekly homework, including revisions that incorporate instructor feedback that reflects understanding of specific topics.
+-  Successfully complete challenging synthesis problems.
+-  Submit a proof portfolio that demonstrates your understanding through:
+    -   Finding and demonstrating connections between ideas.
+    -   Constructing examples and non-examples that demonstrate understanding of definitions.
+    -   Correctly using and explaining the role of axioms and definitions.
+-   Submit solutions to the course journal.
+-   Provide complete solutions on quizzes or exams.
+-   When presenting, give helpful answers to questions.
+-   When listening to presentations, give presenters helpful feedback through your questions, suggestions, etc.
+-   Read others' class journal submissions and use them to improve your own proof writing.
+
+## Qualitative Descriptions of Grades {.unnumbered}
+
+Here are some qualitative descriptions that I find helpful in thinking about student grades.  You might find them helpful as well.
+
+A
+:   This grade generally indicates superior work that demonstrates a deep understanding of the material as well as an ability to apply the material in many unfamiliar or especially complex situations. To earn an A, you should consistently demonstrate your deep understanding of the material using a wide variety of methods described above.
+
+B
+:   This grade indicates good work that is eminently satisfactory. You should be able to use and extend this knowledge in many situations although you may have difficulty with particularly challenging or unfamilar problems. To earn a B, you should consistently demonstrate your understanding of the material using many of the methods described above.
+
+C
+
+:   This grade indicates competent work that demonstrates an basic level of knowledge relevant to the course. You should be able to handle most of the more straightforward problems encountered. To earn a C, you might consistently meet only a few of the criteria listed above or else meet several criteria but less often. 
+
+D/F
+
+:   These grades represent a fundamental breakdown of expectations. A D represents a meaningful but unsuccessful attempt at earning a C or above. An F represents such a severe lack of engagement, effort, or understanding that there is no evidence of meaningful progress.
+
+## Engagement {.unnumbered}
+
+Although your course grade should be based on your **understanding** of course content and not on course engagement, in my experience these typically go hand in hand. So while engagement in the course is not itself evidence of understanding, it does usually help us achieve that goal.
+
+Here are some ways that you can engage with the class:
+
+-   Attend class regularly
+-   Work ahead on new problems and come to class prepared to discuss
+-   Work to make sense of new definitions or axioms.
+-   Ask questions - either in class or in drop-in hours.
+-   Volunteer to present your work. If you're not comfortable sharing your work with the class, you can share with me during drop-in hours.
+-   Actively participate in discussions and group work. This can mean sharing your work but it can also mean asking questions or helping to facilitate the discussion.
+-   Support your classmates and help them succeed.
+
+In discussing your course grade together, we may opt to add a modifier to your grade to acccount for engagement.
+
+-   A $\mathbf{-}$ modifier might be added to your grade if you've met the standard for the base grade but lack of engagment prevented you from doing more in the course.
+
+-   A $\mathbf{+}$ modifier might be added to your grade if you've engaged signficiantly in the course.

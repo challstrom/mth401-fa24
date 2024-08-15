@@ -1,0 +1,35 @@
+---
+title: "Course Description"
+format:
+  html: 
+    toc: true
+    toc-expand: 2
+    toc-title: "On this page"
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+---
+
+In this course, we will revisit the fundamental concepts of calculus with the goal of understanding better how the basic theorems and results follow from definitions. We will consider the question of how we can make these concepts precise -- as well as how we can communicate our mathematical ideas clearly. Specific topics that we will encounter include properties of the real numbers, topology of the real line, and formal treatment of limits, sequences, functions, continuity, and the derivative.
+
+## Course Learning Goals
+
+1.  I can communicate mathematics orally in a clear and complete manner
+2.  I can write correct and complete mathematical proofs of Real Analysis results using the conventions of mathematical writing
+3.  I can independently develop correct and complete proofs of Real Analysis results
+4.  I can demonstrate an understanding of the nature, approaches, and domain of mathematical inquiry.
+
+## Fundamental Learning Outcomes
+
+1.  I can prove results using the axioms for an ordered field.
+
+2.  I can prove results involving suprema, infima, and/or the completeness axiom.
+
+3.  I can prove results using the formal limit definition for sequences.
+
+4.  I can prove results using a formal limit defintion for functions.
+
+5.  I can prove results using the definition of continuity.
+
+6.  I can prove results using a formal limit definition of the derivative.
