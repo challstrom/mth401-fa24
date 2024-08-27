@@ -8,8 +8,6 @@ format:
 editor: visual
 ---
 
-### Hi! -- no, hi to you!! {.unnumbered}
-
 ### Schedule {.unnumbered}
 
 Tue-Thur, 9:45-11:10 <br> DB 230
