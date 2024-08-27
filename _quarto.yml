@@ -8,8 +8,8 @@ book:
   navbar:
     background: "#D0B8A8"
     right:
-      - href: about.qmd
-        text: aboot
+      - href: glance.qmd
+        text: At A Glance
   sidebar:
     background: "#F8EDE3"
 #    logo: "images/logo.png"

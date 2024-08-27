@@ -15,17 +15,16 @@ format:
 
 Your standing assignment in this course is to work out and prepare solutions / proofs for the exercises in the class notes. Keep track of what problems we cover in class so that you can work ahead and come to class prepared to discuss your work and share your ideas, both in small groups and as a whole class. If you get stuck on a problem, come prepared to ask questions.
 
-::: {.callout-note appearance=simple}
-I will post on Moodle a running account of what material we cover each day so that if you happen to miss class, you can still keep track of where we are in the notes.
-:::
+I will post on Moodle a running account of what material we cover each day so that if you do happen to miss class, you can still keep track of where we are in the notes.
+
 
 
 ## Written Homework
 
-Roughly once per week, I will ask you to hand in write-ups of selected problems. The goal of these written assignments is to practice your understanding of the material as well as your communication of mathematics. I will provide feedback on your work after which you are welcome to revise and resubmit for further feedback if you wish. You may choose to use some of these problems as evidence of your progress in the course.  Guidelines for written work can be found in 
+Roughly once per week, I will ask you to hand in write-ups of selected problems. The goal of these written assignments is to demonstrate your understanding of the material as well as your abilty to communicate that understanding in writing. I will provide feedback on your work after which you are welcome to revise and resubmit for further feedback if you wish. You may choose to use some of these problems as evidence of your progress in the course.  Guidelines for written work can be found in 
 [Section @sec-writing].
 
-You are welcome to write your homework assignments by hand, but you might also choose use this opportunity to learn to use $\LaTeX$ (pronounced LAY-TEK). This is the typesetting system your professors use to write documents that have math notation. There are several free ways to use \LaTeX, the easiest of which is probably the web-based [Overleaf](http://overleaf.com).  Since it's web-based, there's nothing to install.  Look for the free student version.
+You are welcome to write your homework assignments by hand, but you might also choose use this opportunity to learn to use $\LaTeX$ (pronounced LAY-TEK). This is the typesetting system your professors use to write documents that have math notation. There are several free ways to use \LaTeX, the easiest of which is probably the web-based [Overleaf](http://overleaf.com).  Since it's web-based, there's nothing to install.  Look for the free student version.  
 
 ## Synthesis Problems
 
@@ -36,11 +35,11 @@ that will eventually come will be worth the wait!
 
 ## Due Dates
 
-Here is how due dates work in the non-academic world: they exist and they're usually there for a reason, but they're usually somewhat flexible.  In this class, they are meant to help you organize your time and to help me from getting overwhelmed with work. But if you need a little more time (no more than a few days) to work on something, that is usually fine. Just send me an email to let me know that your work will be late. You do not need to provide a reason.  If you need more than a few days, you should come talk with me about it.  
+Here is how due dates work in the "real world" -- they exist and they're usually there for a reason, but they're usually somewhat flexible.  In this class, they are meant to help you organize your time and to help me from getting overwhelmed. But if you need a little more time (no more than a few days) to work on something, that is usually fine. Just send me an email to let me know that your work will be late. **You do not need to provide a reason.**  If you need more than a few days, you should come talk with me about it.  
 
 ## Proof Portfolio
 
-As we proceed through the course material, I will ask you to select examples of your work that exemplifying your understanding and engagement with the class content.  At the end of the semester, this portfolio will provide evidence of your learning throughout the semester.  To give me time to review your portfolio, please plan on submitting your portfolio to me by the last day of classes, Dec. 5th.  There is no prescribed format for your portfolio -- many students create a Google Doc that they can then share with me, but if you have other ideas, just let me know!
+As we proceed through the course material, I will ask you to select examples of your work that exemplify your understanding and engagement with the class content.  At the end of the semester, this portfolio will provide evidence of your learning throughout the semester.  To give me time to review your portfolio, please plan on submitting your portfolio to me by the last day of classes, Dec. 5th.  There is no prescribed format for your portfolio -- many students create a Google Doc that they can then share with me, but if you have other ideas, just let me know!
 
 ## Class Proof Journal
 
@@ -48,4 +47,6 @@ Over the course of the semester, we will collaboratively create a proof journal 
 
 ## Exams
 
-We will have a mid-semester take home exam the week of Oct. 8th which will give you a chance to reflect on the material that we've covered up to that point. Instead of a traditional final exam, there will have a final reflection assignment to be completed anytime before the end of finals week which will give you an opportunity to reflect on and synthesize some of the main themes of the course. You will also be asked to self-assess your learning over the course of the semester.
+We will have a mid-semester take home exam the week of Oct. 8th which will give you a chance to demonstrate understanding of the material that we've covered up to that point.  Whether or not you include this in your portfolio is up to you.
+
+We will not have a traditional final exam.  Instead, we will have a final reflection assignment to be completed during finals week which will give you an opportunity to reflect on and synthesize some of the main themes of the course. You will also be asked to self-assess your learning over the course of the semester.

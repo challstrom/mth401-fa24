@@ -20,19 +20,22 @@ Because of the inquiry method of the class, it's important that you **do not** s
 :::
 
 
-## Drop-In Student Hours
+## Drop-In Hours
 I have set aside the following specific times during the week that I am available for drop-in help.   You do not need to let me know you're coming -- just stop by my office (BC 270).  Many students find these drop-in hours can be particularly helpful if you are working together with classmates.  You can work together at one of the tables down the hall from my office and just pop in when you have questions.
 
-* Mon, Wed 10:00-11:00
-* T-Th 2:30-4:00
+* Wed 10:00-11:00
+* T    3:00-4:00
+* Th   2:00-3:00
 
 ::: {.callout-note appearance=simple}
 Note:  since I'm setting these times before the semester actually begins, these times may change if my schedule changes.  If it turns out that I need to adjust them, I will let you know! 
 :::
 
+## Open Door
+I have the scheduled drop-in hours simply to give you some times when you know that I'll be available --  but you are **always** welcome to stop by my office **at any time**.  Unless I'm in class or in a meeting, I will generally be available to meet with you!
+
 ## Sign-Up Hours
 I recognize that your schedule might not allow you to stop by during all the posted drop-in hours.  Or you might simply find it more convenient to meet with me at a different time.  If you go to my 
 [Calendly scheduler](https://calendly.com/hallstro), you can sign-up for a time slot to meet, either in-person or via zoom.  If there is a specific time that works for you and you don't see it available on the Calendly scheduler, please reach out to me via email and we will find a time that works for your schedule.
 
-## Open Door
-I have the scheduled drop-in hours simply to give you some times when you know that I'll be available --  but you are **always** welcome to stop by my office **at any time**.  Unless I'm in class or in a meeting, I will generally be available to meet with you!
+
