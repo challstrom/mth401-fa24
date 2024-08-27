@@ -9,22 +9,25 @@ editor: visual
 ---
 
 ### Schedule {.unnumbered}
-Tue-Thur, 9:45-11:10 <br>
-DB 230
 
+Tue-Thur, 9:45-11:10 <br> DB 230
 
 ### Instructor {.unnumbered}
 
-Chris Hallstrom, PhD (he / him / his).  My office is Buckley Center 270.
+Chris Hallstrom, PhD (he / him / his). My office is Buckley Center 270.
 
 ### Email {.unnumbered}
-[hallstro@up.edu](mailto:hallstro@up.edu).  Email is the best way to contact me.  I will do my best to get back to you as soon as I can, but please be aware that I typically do not check my email in the evenings or on weekends.
+
+[hallstro\@up.edu](mailto:hallstro@up.edu). Email is the best way to contact me. I will do my best to get back to you as soon as I can, but please be aware that I typically do not check my email in the evenings or on weekends.
 
 ### Webpage {.unnumbered}
+
 All course content will be posted on [our class Moodle page](https://learning.up.edu)
 
-### Zoom  {.unnumbered}
-In addition to stopping by my office for questions, I am also available (by prior arrangement) via zoom.  Here is [my personal zoom link](https://uportland.zoom.us/j/4098263199).
+### Zoom {.unnumbered}
+
+In addition to stopping by my office for questions, I am also available (by prior arrangement) via zoom. Here is [my personal zoom link](https://uportland.zoom.us/j/4098263199).
 
 ### Calendly {.unnumbered}
-To schedule a meeting (in-person or virtual), you can check my [Calendly scheduluer](https://calendly.com/hallstro).  If you would like to meet at time that you don't see available on Calendly, please feel free to check with me via email!
+
+To schedule a meeting (in-person or virtual), you can check my [Calendly scheduluer](https://calendly.com/hallstro). If you would like to meet at time that you don't see available on Calendly, please feel free to check with me via email!

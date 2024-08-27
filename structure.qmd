@@ -32,6 +32,10 @@ Throughout the semester, we will encounter problems whose solutions require the 
 mathematical research, the key is to learn from what doesn’t work and to persist through the difficulties. The aha moment
 that will eventually come will be worth the wait!
 
+## Generative AI Policy
+
+Given the IBL nature of the course, no AI assistance of any kind should be used in this course.  This is also true regarding the proof writing aspect of the course -- your goal is to develop skill in communicating mathematics through the mechanism of feedback from human readers of your work.  You should not use AI for any narrative submissions either - I'm interested in your thoughts in your own words.
+
 
 ## Due Dates
 
