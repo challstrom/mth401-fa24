@@ -28,6 +28,7 @@ book:
     - inquiry.qmd
     - support.qmd
     - structure.qmd
+    - honors.qmd
     - writing.qmd
     - grades.qmd
     - UPElements.qmd
@@ -42,5 +43,6 @@ format:
     link-external-newwindow: true
   pdf:
     documentclass: scrreprt
+    toc: true
 
 editor: visual

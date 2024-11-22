@@ -17,33 +17,27 @@ Your standing assignment in this course is to work out and prepare solutions or 
 
 I will post on Moodle a running account of what material we cover each day so that if you do happen to miss class, you can still keep track of where we are in the notes.
 
-
-
 ## Written Homework
 
-Roughly once per week, I will ask you to hand in write-ups of selected problems. The goal of these written assignments is to demonstrate your understanding of the material as well as your abilty to communicate that understanding in writing. I will provide feedback on your work after which you are welcome to revise and resubmit for further feedback if you wish. You may choose to use some of these problems as evidence of your progress in the course.  Guidelines for written work can be found in 
-[Section @sec-writing].
+Roughly once per week, I will ask you to hand in write-ups of selected problems. The goal of these written assignments is to demonstrate your understanding of the material as well as your abilty to communicate that understanding in writing. I will provide feedback on your work after which you are welcome to revise and resubmit for further feedback if you wish. You may choose to use some of these problems as evidence of your progress in the course. Guidelines for written work can be found in [Section @sec-writing].
 
-You are welcome to write your homework assignments by hand, but you might also choose use this opportunity to learn to use $\LaTeX$ (pronounced LAY-TEK). This is the typesetting system your professors use to write documents that have math notation. There are several free ways to use \LaTeX, the easiest of which is probably the web-based [Overleaf](http://overleaf.com).  Since it's web-based, there's nothing to install.  Look for the free student version.  
+You are welcome to write your homework assignments by hand, but you might also choose use this opportunity to learn to use latex (pronounced LAY-TEK). This is the typesetting system your professors use to write documents that have math notation. There are several free ways to use latex, the easiest of which is probably the web-based [Overleaf](http://overleaf.com). Since it's web-based, there's nothing to install. Look for the free student version.
 
 ## Synthesis Problems
 
-Throughout the semester, we will encounter problems whose solutions require the synthesis of multiple concepts and results from the course.  These will be more varied and more challenging and will typically require deep thought over an extended period of time.   You will likely find that you will hit some dead ends along the way. As with all
-mathematical research, the key is to learn from what doesn’t work and to persist through the difficulties. The aha moment
-that will eventually come will be worth the wait!
+Throughout the semester, we will encounter problems whose solutions require the synthesis of multiple concepts and results from the course. These will be more varied and more challenging and will typically require deep thought over an extended period of time. You will likely find that you will hit some dead ends along the way. As with all mathematical research, the key is to learn from what doesn’t work and to persist through the difficulties. The aha moment that will eventually come will be worth the wait!
 
 ## Generative AI Policy
 
-Given the IBL nature of the course, no AI assistance of any kind should be used in this course.  This is also true regarding the proof writing aspect of the course -- your goal is to develop skill in communicating mathematics through the mechanism of feedback from human readers of your work.  You should not use AI for any narrative submissions either - I'm interested in your thoughts in your own words.
-
+Given the IBL nature of the course, no AI assistance of any kind should be used in this course. This is also true regarding the proof writing aspect of the course -- your goal is to develop skill in communicating mathematics through the mechanism of feedback from human readers of your work. You should not use AI for any narrative submissions either - I'm interested in your thoughts in your own words.
 
 ## Due Dates
 
-Here is how due dates work in the "real world" -- they exist and they're usually there for a reason, but they're usually somewhat flexible.  In this class, they are meant to help you organize your time and to help me from getting overwhelmed. But if you need a little more time (no more than a few days) to work on something, that is usually fine. Just send me an email to let me know that your work will be late. **You do not need to provide a reason.**  If you need more than a few days, you should come talk with me about it.  
+Here is how due dates work in the "real world" -- they exist and they're usually there for a reason, but they're usually somewhat flexible. In this class, they are meant to help you organize your time and to help me from getting overwhelmed. But if you need a little more time (no more than a few days) to work on something, that is usually fine. Just send me an email to let me know that your work will be late. **You do not need to provide a reason.** If you need more than a few days, you should come talk with me about it.
 
 ## Proof Portfolio
 
-As we proceed through the course material, I will ask you to select examples of your work that exemplify your understanding and engagement with the class content.  At the end of the semester, this portfolio will provide evidence of your learning throughout the semester.  To give me time to review your portfolio, please plan on submitting your portfolio to me by the last day of classes, Dec. 5th.  There is no prescribed format for your portfolio -- many students create a Google Doc that they can then share with me, but if you have other ideas, just let me know!
+As we proceed through the course material, I will ask you to select examples of your work that exemplify your understanding and engagement with the class content. At the end of the semester, this portfolio will provide evidence of your learning throughout the semester. To give me time to review your portfolio, please plan on submitting your portfolio to me by the last day of classes, Dec. 5th. There is no prescribed format for your portfolio -- many students create a Google Doc that they can then share with me, but if you have other ideas, just let me know!
 
 ## Class Proof Journal
 
@@ -51,6 +45,6 @@ Over the course of the semester, we will collaboratively create a proof journal 
 
 ## Exams
 
-We will have a mid-semester take home exam the week of Oct. 8th which will give you a chance to demonstrate understanding of the material that we've covered up to that point.  Whether or not you include this in your portfolio is up to you.
+We will have a mid-semester take home exam the week of Oct. 8th which will give you a chance to demonstrate understanding of the material that we've covered up to that point. Whether or not you include this in your portfolio is up to you.
 
-We will not have a traditional final exam.  Instead, we will have a final reflection assignment to be completed during finals week which will give you an opportunity to reflect on and synthesize some of the main themes of the course. You will also be asked to self-assess your learning over the course of the semester.
+We will not have a traditional final exam. Instead, we will have a final reflection assignment to be completed during finals week which will give you an opportunity to reflect on and synthesize some of the main themes of the course. You will also be asked to self-assess your learning over the course of the semester.

@@ -1,0 +1,22 @@
+---
+title: "Honors"
+format:
+  html: 
+    toc: true
+    toc-expand: 2
+    toc-title: "On this page"
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+---
+
+If you are taking this course as part of Honors Program then there is an additional requirement of a **course project** that involves a deeper dive into a topic related to the course material. This project will include:
+
+-   Selecting a topic that either extends an idea or result from class or explores a new topic that connects with course material. I will provide you with a list of possible project ideas, but you're also encouraged to come up with your own ideas.
+
+-   Investigating and preparing a report detailing your exploration. This work should include at least one proof that uses results or ideas from the course content.
+
+-   Presenting a summary of your work in a talk. This could either be a presentation to the class or else some other public facing talk such as the mathematics colloquium or other appropriate setting.
+
+**Note**: Engaging with an honors project is not limited to students in the honors program. All students can choose to complete this project as a way to explore and engage in course content at a deeper level.

@@ -6,51 +6,8 @@
     "section": "",
     "text": "Welcome!\nBefore we get into the details of the course, I want to share with you a few thoughts about my general approach to teaching and learning. My main goal as the professor in this course is to help you succeed in not just learning the material but in growing as a learner. Learning takes effort, a willingness to try something that may not work, and the ability to use feedback to refine your understanding. My job is to foster an environment in which each and every one of you are supported in these aspects.\nMuch of the work for this course will be done within class or small group discussions for which we will rely on everyone in this class as a source for feedback and support. Because of this, it’s important that we create an inclusive community that is respectful of our differences and offers space for the boundary-setting necessary for positive relationships to form. Our diversity is reflected by differences in race, gender, sexuality, ability, class, religion, nationality, and other cultural identities and material circumstances.\nI am looking forward to getting to know each of you and it is my sincere goal to make our time together (in class and out) productive and engaging. I want you to feel comfortable coming to me with any questions or concerns that arise, mathematical and otherwise. If you encounter any issues that interfere with your learning, whether they are physical, mental, emotional, economic, or otherwise, or if you experience discrimination or mistreatment of any sort, please contact me immediately. Other resources for support include the Chair of the Math Department or the CAS Dean of Students.",
     "crumbs": [
+      "At a Glance",
       "Welcome!"
-    ]
-  },
-  {
-    "objectID": "glance.html",
-    "href": "glance.html",
-    "title": "1  At a Glance",
-    "section": "",
-    "text": "Schedule\nTue-Thur, 9:45-11:10  DB 230\n\n\nInstructor\nChris Hallstrom, PhD (he / him / his). My office is Buckley Center 270.\n\n\nEmail\nhallstro@up.edu. Email is the best way to contact me. I will do my best to get back to you as soon as I can, but please be aware that I typically do not check my email in the evenings or on weekends.\n\n\nWebpage\nAll course content will be posted on our class Moodle page\n\n\nZoom\nIn addition to stopping by my office for questions, I am also available (by prior arrangement) via zoom. Here is my personal zoom link.\n\n\nCalendly\nTo schedule a meeting (in-person or virtual), you can check my Calendly scheduluer. If you would like to meet at time that you don’t see available on Calendly, please feel free to check with me via email!",
-    "crumbs": [
-      "At a Glance",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>At a Glance</span>"
-    ]
-  },
-  {
-    "objectID": "syllabus.html",
-    "href": "syllabus.html",
-    "title": "2  Course Description",
-    "section": "",
-    "text": "2.1 Course Learning Goals",
-    "crumbs": [
-      "At a Glance",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course Description</span>"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#course-learning-goals",
-    "href": "syllabus.html#course-learning-goals",
-    "title": "2  Course Description",
-    "section": "",
-    "text": "I can communicate mathematics orally in a clear and complete manner\nI can write correct and complete mathematical proofs of Real Analysis results using the conventions of mathematical writing\nI can independently develop correct and complete proofs of Real Analysis results\nI can demonstrate an understanding of the nature, approaches, and domain of mathematical inquiry.",
-    "crumbs": [
-      "At a Glance",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course Description</span>"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#fundamental-learning-outcomes",
-    "href": "syllabus.html#fundamental-learning-outcomes",
-    "title": "2  Course Description",
-    "section": "2.2 Fundamental Learning Outcomes",
-    "text": "2.2 Fundamental Learning Outcomes\n\nI can prove results using the axioms for an ordered field.\nI can prove results involving suprema, infima, and/or the completeness axiom.\nI can prove results using the formal limit definition for sequences.\nI can prove results using a formal limit defintion for functions.\nI can prove results using the definition of continuity.\nI can prove results using a formal limit definition of the derivative.",
-    "crumbs": [
-      "At a Glance",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course Description</span>"
     ]
   },
   {
@@ -76,21 +33,11 @@
     ]
   },
   {
-    "objectID": "support.html#drop-in-student-hours",
-    "href": "support.html#drop-in-student-hours",
+    "objectID": "support.html#drop-in-hours",
+    "href": "support.html#drop-in-hours",
     "title": "4  Student Support",
     "section": "",
     "text": "Wed 10:00-11:00\nT 3:00-4:00\nTh 2:00-3:00\n\n\n\n\n\n\n\nNote: since I’m setting these times before the semester actually begins, these times may change if my schedule changes. If it turns out that I need to adjust them, I will let you know!",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Student Support</span>"
-    ]
-  },
-  {
-    "objectID": "support.html#sign-up-hours",
-    "href": "support.html#sign-up-hours",
-    "title": "4  Student Support",
-    "section": "4.3 Sign-Up Hours",
-    "text": "4.3 Sign-Up Hours\nI recognize that your schedule might not allow you to stop by during all the posted drop-in hours. Or you might simply find it more convenient to meet with me at a different time. If you go to my Calendly scheduler, you can sign-up for a time slot to meet, either in-person or via zoom. If there is a specific time that works for you and you don’t see it available on the Calendly scheduler, please reach out to me via email and we will find a time that works for your schedule.",
     "crumbs": [
       "At a Glance",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Student Support</span>"
@@ -108,6 +55,17 @@
     ]
   },
   {
+    "objectID": "support.html#sign-up-hours",
+    "href": "support.html#sign-up-hours",
+    "title": "4  Student Support",
+    "section": "4.3 Sign-Up Hours",
+    "text": "4.3 Sign-Up Hours\nI recognize that your schedule might not allow you to stop by during all the posted drop-in hours. Or you might simply find it more convenient to meet with me at a different time. If you go to my Calendly scheduler, you can sign-up for a time slot to meet, either in-person or via zoom. If there is a specific time that works for you and you don’t see it available on the Calendly scheduler, please reach out to me via email and we will find a time that works for your schedule.",
+    "crumbs": [
+      "At a Glance",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Student Support</span>"
+    ]
+  },
+  {
     "objectID": "structure.html",
     "href": "structure.html",
     "title": "5  Course Structure",
@@ -119,18 +77,11 @@
     ]
   },
   {
-    "objectID": "structure.html#daily-work",
-    "href": "structure.html#daily-work",
-    "title": "Course Structure",
-    "section": "",
-    "text": "Your standing assignment in this course is to work out and prepare solutions or proofs for the exercises in the class notes. Keep track of what problems we cover in class so that you can work ahead and come to class prepared to discuss your work and share your ideas, both in small groups and as a whole class. If you get stuck on a problem, come prepared to ask questions.\nI will post on Moodle a running account of what material we cover each day so that if you do happen to miss class, you can still keep track of where we are in the notes."
-  },
-  {
     "objectID": "structure.html#written-homework",
     "href": "structure.html#written-homework",
     "title": "5  Course Structure",
     "section": "5.2 Written Homework",
-    "text": "5.2 Written Homework\nRoughly once per week, I will ask you to hand in write-ups of selected problems. The goal of these written assignments is to demonstrate your understanding of the material as well as your abilty to communicate that understanding in writing. I will provide feedback on your work after which you are welcome to revise and resubmit for further feedback if you wish. You may choose to use some of these problems as evidence of your progress in the course. Guidelines for written work can be found in Section 6.\nYou are welcome to write your homework assignments by hand, but you might also choose use this opportunity to learn to use \\(\\LaTeX\\) (pronounced LAY-TEK). This is the typesetting system your professors use to write documents that have math notation. There are several free ways to use , the easiest of which is probably the web-based Overleaf. Since it’s web-based, there’s nothing to install. Look for the free student version.",
+    "text": "5.2 Written Homework\nRoughly once per week, I will ask you to hand in write-ups of selected problems. The goal of these written assignments is to demonstrate your understanding of the material as well as your abilty to communicate that understanding in writing. I will provide feedback on your work after which you are welcome to revise and resubmit for further feedback if you wish. You may choose to use some of these problems as evidence of your progress in the course. Guidelines for written work can be found in Section 7.\nYou are welcome to write your homework assignments by hand, but you might also choose use this opportunity to learn to use latex (pronounced LAY-TEK). This is the typesetting system your professors use to write documents that have math notation. There are several free ways to use latex, the easiest of which is probably the web-based Overleaf. Since it’s web-based, there’s nothing to install. Look for the free student version.",
     "crumbs": [
       "At a Glance",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Course Structure</span>"
@@ -142,6 +93,17 @@
     "title": "5  Course Structure",
     "section": "5.3 Synthesis Problems",
     "text": "5.3 Synthesis Problems\nThroughout the semester, we will encounter problems whose solutions require the synthesis of multiple concepts and results from the course. These will be more varied and more challenging and will typically require deep thought over an extended period of time. You will likely find that you will hit some dead ends along the way. As with all mathematical research, the key is to learn from what doesn’t work and to persist through the difficulties. The aha moment that will eventually come will be worth the wait!",
+    "crumbs": [
+      "At a Glance",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Course Structure</span>"
+    ]
+  },
+  {
+    "objectID": "structure.html#generative-ai-policy",
+    "href": "structure.html#generative-ai-policy",
+    "title": "5  Course Structure",
+    "section": "5.4 Generative AI Policy",
+    "text": "5.4 Generative AI Policy\nGiven the IBL nature of the course, no AI assistance of any kind should be used in this course. This is also true regarding the proof writing aspect of the course – your goal is to develop skill in communicating mathematics through the mechanism of feedback from human readers of your work. You should not use AI for any narrative submissions either - I’m interested in your thoughts in your own words.",
     "crumbs": [
       "At a Glance",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Course Structure</span>"
@@ -192,171 +154,146 @@
     ]
   },
   {
+    "objectID": "honors.html",
+    "href": "honors.html",
+    "title": "6  Honors",
+    "section": "",
+    "text": "If you are taking this course as part of Honors Program then there is an additional requirement of a course project that involves a deeper dive into a topic related to the course material. This project will include:\n\nSelecting a topic that either extends an idea or result from class or explores a new topic that connects with course material. I will provide you with a list of possible project ideas, but you’re also encouraged to come up with your own ideas.\nInvestigating and preparing a report detailing your exploration. This work should include at least one proof that uses results or ideas from the course content.\nPresenting a summary of your work in a talk. This could either be a presentation to the class or else some other public facing talk such as the mathematics colloquium or other appropriate setting.\n\nNote: Engaging with an honors project is not limited to students in the honors program. All students can choose to complete this project as a way to explore and engage in course content at a deeper level.",
+    "crumbs": [
+      "At a Glance",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Honors</span>"
+    ]
+  },
+  {
     "objectID": "writing.html",
     "href": "writing.html",
-    "title": "6  Writing Proofs",
+    "title": "7  Writing Proofs",
     "section": "",
-    "text": "One of the goals of this course is to hone your skill in communicating your mathematical ideas, particularly in writing. In creating and writing proofs, your goal is not to simply come up with a correct argument but you must also convince someone else that you know what you’re talking about!\nTo best achieve this goal, you might think of your proof as a short essay that effectively integrates mathematical work with explanation and reasoning. Like any piece of writing, you should expect to write multiple drafts, proofread, and edit your work. Here is an incomplete set of guidelines you may find helpful:\n\nWork is clearly written using complete sentences. In particular, all mathematical notation and expressions are part of a sentence.\nWriting should be neat and legible. If your handwriting is not up to the task, you should consider using a typesetting enviornment such as \\(\\LaTeX\\)\nIt should probably contain more words than symbols.\nIt is written at a level that is appropriate for a MTH 401 audience, namely, members of our class who are familiar with the content of the course but who may not have worked on the particular problem whose solution you are presenting.\nThe proof is complete, meaning that a member of our MTH 401 audience (see above) can trace your reasoning from beginning to end and be persuaded that your proof is correct without having to reconstruct or guess at significant portions of your thinking.\nThe proposition or claim to be proven is clearly stated as such.\nThe proof is correct and the steps in the proof are also correct.\nYour writing is almost free, if not entirely free, of spelling errors.\nYour writing is almost free, if not entirely free, of basic grammatical errors such as incomplete sentences, subject-verb disagreement, and misuse of punctuation.",
+    "text": "One of the goals of this course is to hone your skill in communicating your mathematical ideas, particularly in writing. In creating and writing proofs, your goal is not to simply come up with a correct argument but you must also convince someone else that you know what you’re talking about!\nTo best achieve this goal, you might think of your proof as a short essay that effectively integrates mathematical work with explanation and reasoning. Like any piece of writing, you should expect to write multiple drafts, proofread, and edit your work. Here is an incomplete set of guidelines you may find helpful:\n\nWork is clearly written using complete sentences. In particular, all mathematical notation and expressions are part of a sentence.\nWriting should be neat and legible. If your handwriting is not up to the task, you should consider using a typesetting enviornment such as latex.\nIt should probably contain more words than symbols.\nIt is written at a level that is appropriate for a MTH 401 audience, namely, members of our class who are familiar with the content of the course but who may not have worked on the particular problem whose solution you are presenting.\nThe proof is complete, meaning that a member of our MTH 401 audience (see above) can trace your reasoning from beginning to end and be persuaded that your proof is correct without having to reconstruct or guess at significant portions of your thinking.\nThe proposition or claim to be proven is clearly stated as such.\nThe proof is correct and the steps in the proof are also correct.\nYour writing is almost free, if not entirely free, of spelling errors.\nYour writing is almost free, if not entirely free, of basic grammatical errors such as incomplete sentences, subject-verb disagreement, and misuse of punctuation.",
     "crumbs": [
-      "At A Glance",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Writing Proofs</span>"
+      "At a Glance",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Writing Proofs</span>"
     ]
   },
   {
     "objectID": "grades.html",
     "href": "grades.html",
-    "title": "7  Grades",
+    "title": "8  Grades",
     "section": "",
     "text": "Collaborative Grading\nRather than giving you marks on individual assignments, I will instead give you extensive feedback on your work. After addressing that feedback, you’re welcome to resubmit for further feedback if you wish. Throughout the semester, I will periodically ask you to reflect carefully on your work and to evaluate your progress. You will collect evidence of your understanding of the course content and based on that evidence, you will be asked to suggest a final course grade. In this way, we will determine your your grade collaboratively.\nThe intention here is to help you focus on learning in a way that is more organic, as opposed to simply working as you think you’re expected to. If this process causes more anxiety than it alleviates, please see me at any point to confer about your progress in the course – I’m always happy to talk with you about your learning!\nHere some of the many ways that you might demonstrate your understanding of the course material:",
     "crumbs": [
       "At a Glance",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Grades</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Grades</span>"
     ]
   },
   {
     "objectID": "grades.html#collaborative-grading",
     "href": "grades.html#collaborative-grading",
-    "title": "7  Grades",
+    "title": "8  Grades",
     "section": "",
     "text": "Submit weekly homework, including revisions that incorporate instructor feedback that reflects understanding of specific topics.\nSuccessfully complete challenging synthesis problems.\nSubmit a proof portfolio that demonstrates your understanding through:\n\nFinding and demonstrating connections between ideas.\nConstructing examples and non-examples that demonstrate understanding of definitions.\nCorrectly using and explaining the role of axioms and definitions.\n\nSubmit solutions to the course journal.\nProvide complete solutions on quizzes or exams.\nWhen presenting, give helpful answers to questions.\nWhen listening to presentations, give presenters helpful feedback through your questions, suggestions, etc.\nRead others’ class journal submissions and use them to improve your own proof writing.",
     "crumbs": [
       "At a Glance",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Grades</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Grades</span>"
     ]
   },
   {
     "objectID": "grades.html#qualitative-descriptions-of-grades",
     "href": "grades.html#qualitative-descriptions-of-grades",
-    "title": "7  Grades",
+    "title": "8  Grades",
     "section": "Qualitative Descriptions of Grades",
     "text": "Qualitative Descriptions of Grades\nHere are some qualitative descriptions that I find helpful in thinking about student grades. You might find them helpful as well.\n\nA\n\nThis grade generally indicates superior work that demonstrates a deep understanding of the material such that you could apply the material in unfamiliar or especially complex situations. You should should consistently demonstrate this deep understanding of the material using a wide variety of methods described above.\n\nB\n\nThis grade indicates good work that is eminently satisfactory. You should be able to use and extend this knowledge in many situations although you might have difficulty with particularly challenging or unfamilar problems. You should consistently demonstrate your understanding of the material using some of the methods described above.\n\nC\n\nThis grade indicates competent work that demonstrates an basic understanding of the course material. You should be able to handle most of the more straightforward problems encountered but might struggle with more challenging problems. You might consistently meet only a few of the criteria listed above or else meet several criteria but less often.\n\nD/F\n\nThese grades represent a fundamental breakdown of expectations. A D represents a meaningful but unsuccessful attempt at earning a C or above. An F represents such a severe lack of engagement, effort, or understanding that there is no evidence of meaningful progress.",
     "crumbs": [
       "At a Glance",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Grades</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Grades</span>"
     ]
   },
   {
     "objectID": "grades.html#engagement",
     "href": "grades.html#engagement",
-    "title": "7  Grades",
+    "title": "8  Grades",
     "section": "Engagement",
     "text": "Engagement\nAlthough your course grade should be based on your understanding of course content and not on course engagement, in my experience these typically go hand in hand. So while engagement in the course is not itself evidence of understanding, it does usually help us achieve that goal.\nHere are some ways that you can engage with the class:\n\nAttend class regularly\nWork ahead on new problems and come to class prepared to discuss\nWork to make sense of new definitions or axioms.\nAsk questions - either in class or in drop-in hours.\nVolunteer to present your work. If you’re not comfortable sharing your work with the class, you can share with me during drop-in hours.\nActively participate in discussions and group work. This can mean sharing your work but it can also mean asking questions or helping to facilitate the discussion.\nSupport your classmates and help them succeed.\n\nIn discussing your course grade together, we may opt to add a modifier to your grade to acccount for engagement.\n\nA \\(\\mathbf{-}\\) modifier might be added to your grade if you’ve met the standard for the base grade but lack of engagment prevented you from doing more in the course.\nA \\(\\mathbf{+}\\) modifier might be added to your grade if you’ve met the standards for a particular grand and you’ve engaged in the course in particularly significant ways.",
     "crumbs": [
       "At a Glance",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Grades</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Grades</span>"
     ]
   },
   {
     "objectID": "UPElements.html",
     "href": "UPElements.html",
-    "title": "8  University Policies",
+    "title": "9  University Policies",
     "section": "",
-    "text": "8.1 Academic Integrity\nThe University of Portland is a diverse academic community of learners and scholars who are dedicated to freely sharing ideas and engaging in respectful discussion of those ideas to discover truth. Such pursuits require each person, whether student or faculty, to present truthfully our own ideas and give credit to others for the ideas that they generate. Thus, cheating on exams, copying another student’s assignment, including homework, or using the work of others without proper citation are some examples of violating academic integrity.\nEspecially for written and oral assignments, students have an ethical responsibility to properly cite the authors of any books, articles, or other sources that they use. Students should expect to submit assignments to Turnitin, a database that ensures assignments are original work of the student submitting. Each discipline has guidelines for how to give appropriate credit, and instructors will communicate the specific guidelines for their discipline. The Clark Library also maintains a webpage that provides citation guidelines at libguides.up.edu/cite.\nThe misuse of AI to shortcut course learning outcomes will be treated as a violation of academic integrity comparable to plagiarism or cheating. Faculty are responsible for including a written “Course AI Policy” in their syllabi that clearly states what they consider appropriate and inappropriate uses of AI in the context of their courses. Students are responsible for using AI in ways that do not detract from the established learning outcomes of the course. All members of the scholarly community are responsible for demonstrating sound judgment in discerning when and how to utilize AI in their work, upholding standards of citation, originality, and integrity.",
+    "text": "9.1 Academic Integrity\nThe University of Portland is a diverse academic community of learners and scholars who are dedicated to freely sharing ideas and engaging in respectful discussion of those ideas to discover truth. Such pursuits require each person, whether student or faculty, to present truthfully our own ideas and give credit to others for the ideas that they generate. Thus, cheating on exams, copying another student’s assignment, including homework, or using the work of others without proper citation are some examples of violating academic integrity.\nEspecially for written and oral assignments, students have an ethical responsibility to properly cite the authors of any books, articles, or other sources that they use. Students should expect to submit assignments to Turnitin, a database that ensures assignments are original work of the student submitting. Each discipline has guidelines for how to give appropriate credit, and instructors will communicate the specific guidelines for their discipline. The Clark Library also maintains a webpage that provides citation guidelines at libguides.up.edu/cite.\nThe misuse of AI to shortcut course learning outcomes will be treated as a violation of academic integrity comparable to plagiarism or cheating. Faculty are responsible for including a written “Course AI Policy” in their syllabi that clearly states what they consider appropriate and inappropriate uses of AI in the context of their courses. Students are responsible for using AI in ways that do not detract from the established learning outcomes of the course. All members of the scholarly community are responsible for demonstrating sound judgment in discerning when and how to utilize AI in their work, upholding standards of citation, originality, and integrity.",
     "crumbs": [
       "At a Glance",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>University Policies</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>University Policies</span>"
     ]
   },
   {
     "objectID": "UPElements.html#assessment-disclosure",
     "href": "UPElements.html#assessment-disclosure",
-    "title": "8  University Policies",
-    "section": "8.2 Assessment Disclosure",
-    "text": "8.2 Assessment Disclosure\nStudent work products for this course may be used by the University for educational quality assurance purposes. For reasons of confidentiality, such examples will not include student names.",
+    "title": "9  University Policies",
+    "section": "9.2 Assessment Disclosure",
+    "text": "9.2 Assessment Disclosure\nStudent work products for this course may be used by the University for educational quality assurance purposes. For reasons of confidentiality, such examples will not include student names.",
     "crumbs": [
       "At a Glance",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>University Policies</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>University Policies</span>"
     ]
   },
   {
     "objectID": "UPElements.html#accessibility",
     "href": "UPElements.html#accessibility",
-    "title": "8  University Policies",
-    "section": "8.3 Accessibility",
-    "text": "8.3 Accessibility\nThe University of Portland strives to make its courses and services fully accessible to all students. Students are encouraged to discuss with their instructors what might be most helpful in enabling them to meet the learning goals of the course. Students who experience a disability are encouraged to use the services of the Office for Accessible Education Services (AES), located in the Shepard Academic Resource Center (503-943- 8985). If you have an AES Accommodation Plan, you should meet with your instructor to discuss how to implement your plan in this class. Requests for alternate location for exams and/or extended exam time should, where possible, be made two weeks in advance of an exam, and must be made at least one week in advance of an exam. Also, if applicable, you should meet with your instructor to discuss emergency medical information or how best to ensure your safe evacuation from the building in case of fire or other emergency. All information that students provide regarding disability or accommodation is confidential. All students are responsible for completing the required coursework and are held to the same evaluation standards specified in the course syllabus.",
+    "title": "9  University Policies",
+    "section": "9.3 Accessibility",
+    "text": "9.3 Accessibility\nThe University of Portland strives to make its courses and services fully accessible to all students. Students are encouraged to discuss with their instructors what might be most helpful in enabling them to meet the learning goals of the course. Students who experience a disability are encouraged to use the services of the Office for Accessible Education Services (AES), located in the Shepard Academic Resource Center (503-943- 8985). If you have an AES Accommodation Plan, you should meet with your instructor to discuss how to implement your plan in this class. Requests for alternate location for exams and/or extended exam time should, where possible, be made two weeks in advance of an exam, and must be made at least one week in advance of an exam. Also, if applicable, you should meet with your instructor to discuss emergency medical information or how best to ensure your safe evacuation from the building in case of fire or other emergency. All information that students provide regarding disability or accommodation is confidential. All students are responsible for completing the required coursework and are held to the same evaluation standards specified in the course syllabus.",
     "crumbs": [
       "At a Glance",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>University Policies</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>University Policies</span>"
     ]
   },
   {
     "objectID": "UPElements.html#mental-health",
     "href": "UPElements.html#mental-health",
-    "title": "8  University Policies",
-    "section": "8.4 Mental Health",
-    "text": "8.4 Mental Health\nAnyone can experience problems with their mental health that interfere with academic experiences and negatively impact daily life. If you or someone you know experiences mental health challenges at UP, please contact the University of Portland Counseling Center in the upper level of Orrico Hall (down the hill from Franz Hall and near Mehling Hall) at 503-943-7134 or hcc@up.edu. Their services are free and confidential. In addition, mental health consultation and support is available through the Pilot Helpline by calling 503-943-7134 and pressing 3. The University of Portland Campus Safety Department (503-943-4444) also has personnel trained to respond sensitively to mental health emergencies at all hours. Remember that getting help is a smart and courageous thing to do – for yourself, for those you care about, and for those who care about you. For more information on health and wellness resources at UP go to www.linktr.ee/wellnessUP.",
+    "title": "9  University Policies",
+    "section": "9.4 Mental Health",
+    "text": "9.4 Mental Health\nAnyone can experience problems with their mental health that interfere with academic experiences and negatively impact daily life. If you or someone you know experiences mental health challenges at UP, please contact the University of Portland Counseling Center in the upper level of Orrico Hall (down the hill from Franz Hall and near Mehling Hall) at 503-943-7134 or hcc@up.edu. Their services are free and confidential. In addition, mental health consultation and support is available through the Pilot Helpline by calling 503-943-7134 and pressing 3. The University of Portland Campus Safety Department (503-943-4444) also has personnel trained to respond sensitively to mental health emergencies at all hours. Remember that getting help is a smart and courageous thing to do – for yourself, for those you care about, and for those who care about you. For more information on health and wellness resources at UP go to www.linktr.ee/wellnessUP.",
     "crumbs": [
       "At a Glance",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>University Policies</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>University Policies</span>"
     ]
   },
   {
     "objectID": "UPElements.html#non-violence",
     "href": "UPElements.html#non-violence",
-    "title": "8  University Policies",
-    "section": "8.5 Non-Violence",
-    "text": "8.5 Non-Violence\nThe University of Portland is committed to fostering a safe and respectful community free from all forms of violence. Violence of any kind, and in particular acts of power- based personal violence, are inconsistent with our mission. Together, all UP community members must take a stand against violence. Learn more about what interpersonal violence looks like, campus and community resources, UP’s prevention strategy, and what we as individuals can do to assist on the Green Dot website. Further information and reporting options may be found on the Title IX website.",
+    "title": "9  University Policies",
+    "section": "9.5 Non-Violence",
+    "text": "9.5 Non-Violence\nThe University of Portland is committed to fostering a safe and respectful community free from all forms of violence. Violence of any kind, and in particular acts of power- based personal violence, are inconsistent with our mission. Together, all UP community members must take a stand against violence. Learn more about what interpersonal violence looks like, campus and community resources, UP’s prevention strategy, and what we as individuals can do to assist on the Green Dot website. Further information and reporting options may be found on the Title IX website.",
     "crumbs": [
       "At a Glance",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>University Policies</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>University Policies</span>"
     ]
   },
   {
     "objectID": "UPElements.html#ethics-of-information",
     "href": "UPElements.html#ethics-of-information",
-    "title": "8  University Policies",
-    "section": "8.6 Ethics of Information",
-    "text": "8.6 Ethics of Information\nThe University of Portland is a community dedicated to the investigation and discovery of processes for thinking ethically and encouraging the development of ethical reasoning in the formation of the whole person. Using information ethically, as an element in open and honest scholarly endeavors, involves moral reasoning to determine the right way to access, create, distribute, and employ information, including: considerations of intellectual property rights, fair use, information bias, censorship, and privacy. More information can be found in the Clark Library’s guide to the Ethical Use of Information.",
+    "title": "9  University Policies",
+    "section": "9.6 Ethics of Information",
+    "text": "9.6 Ethics of Information\nThe University of Portland is a community dedicated to the investigation and discovery of processes for thinking ethically and encouraging the development of ethical reasoning in the formation of the whole person. Using information ethically, as an element in open and honest scholarly endeavors, involves moral reasoning to determine the right way to access, create, distribute, and employ information, including: considerations of intellectual property rights, fair use, information bias, censorship, and privacy. More information can be found in the Clark Library’s guide to the Ethical Use of Information.",
     "crumbs": [
       "At a Glance",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>University Policies</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>University Policies</span>"
     ]
   },
   {
     "objectID": "UPElements.html#the-learning-commons",
     "href": "UPElements.html#the-learning-commons",
-    "title": "8  University Policies",
-    "section": "8.7 The Learning Commons",
-    "text": "8.7 The Learning Commons\nStudents may receive academic assistance through Learning Commons tutoring services and workshops. The Co-Pilot peer tutoring program provides students with opportunities to work with other students to get help in writing, math, group projects, and many other courses. Schedule an appointment to meet with a Co-Pilot (tutor) by visiting the Learning Commons website. Students can also meet with a Co-Pilot during drop-in hours. Check the Learning Commons website or stop by the Learning Commons in BC 163 to learn more about their services. Co-Pilots are a wonderful support along your academic journey.",
+    "title": "9  University Policies",
+    "section": "9.7 The Learning Commons",
+    "text": "9.7 The Learning Commons\nStudents may receive academic assistance through Learning Commons tutoring services and workshops. The Co-Pilot peer tutoring program provides students with opportunities to work with other students to get help in writing, math, group projects, and many other courses. Schedule an appointment to meet with a Co-Pilot (tutor) by visiting the Learning Commons website. Students can also meet with a Co-Pilot during drop-in hours. Check the Learning Commons website or stop by the Learning Commons in BC 163 to learn more about their services. Co-Pilots are a wonderful support along your academic journey.",
     "crumbs": [
       "At a Glance",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>University Policies</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>University Policies</span>"
     ]
-  },
-  {
-    "objectID": "support.html#drop-in-hours",
-    "href": "support.html#drop-in-hours",
-    "title": "4  Student Support",
-    "section": "",
-    "text": "Wed 10:00-11:00\nT 3:00-4:00\nTh 2:00-3:00\n\n\n\n\n\n\n\nNote: since I’m setting these times before the semester actually begins, these times may change if my schedule changes. If it turns out that I need to adjust them, I will let you know!",
-    "crumbs": [
-      "At a Glance",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Student Support</span>"
-    ]
-  },
-  {
-    "objectID": "structure.html#generative-ai-policy",
-    "href": "structure.html#generative-ai-policy",
-    "title": "5  Course Structure",
-    "section": "5.4 Generative AI Policy",
-    "text": "5.4 Generative AI Policy\nGiven the IBL nature of the course, no AI assistance of any kind should be used in this course. This is also true regarding the proof writing aspect of the course – your goal is to develop skill in communicating mathematics through the mechanism of feedback from human readers of your work. You should not use AI for any narrative submissions either - I’m interested in your thoughts in your own words.",
-    "crumbs": [
-      "At a Glance",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Course Structure</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "References"
-  },
-  {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "Introduction\nThis is a book created from markdown and executable code.\nSee @knuth84 for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2"
   }
 ]
